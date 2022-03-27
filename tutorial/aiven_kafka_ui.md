@@ -4,7 +4,7 @@ Now let's see how you can see the status on the web console while the data feed 
 
 ### Topic list
 
-Kafka's data feeds are exchanged between the sender (Producer) and the receiver (Consumer) via a specific "topic".
+Kafka's data feeds are sent from the sender (Producer) to the receiver (Consumer) via a specific "topic".
 
 Open the Kafka service details screen (Service View).
 From the "Topics" tab, you can check the topic list and status information as shown below.
