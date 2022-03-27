@@ -119,7 +119,7 @@ Aivenサービスは、Aiven Webコンソールで管理されます。
 
 新しい設定項目を追加する際には、[+ Add configuration option]リンクをクリックすると、以下の様に設定の候補が表示されます。
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/d659102e-141d-f706-686b-7c82952a1668.png)
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/d659102e-141d-f706-686b-7c82952a1668.png" width=50%>
 
 以上で、今回のセットアップが完了しました。
 
