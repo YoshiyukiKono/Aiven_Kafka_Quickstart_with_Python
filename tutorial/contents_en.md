@@ -1,6 +1,6 @@
 # Tutorial: Aiven Kafka Quickstart with Python
 ## Contents
-1. [Aiven Getting Started](aiven_getting_started.md)
+1. [Introduction](aiven_getting_started.md)
 1. [Aiven Kafka Setup](aiven_kafka_setup.md)
 1. [Python Programming Environment](python_env.md)
 3. [Python Kafka Producer](python_kafka_producer.md)
