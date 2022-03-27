@@ -4,7 +4,7 @@ The purpose of this tutorial is to leverage Aiven's managed services to provide 
 
 ### What is Aiven?
 
-[Aiven](https://aiven.io/) offers fully managed services for popular open source projects such as Apache Kafka, Cassandra, Opensearch, M3 and PostgreSQL. Aiven users can use Aiven's services on various public clouds.
+[Aiven](https://aiven.io/) offers fully managed services for popular open source projects such as Apache Kafka, Cassandra, OpenSearch, M3 and PostgreSQL. Aiven users can use Aiven's services on various public clouds.
 
 ### Aiven Trial
 
