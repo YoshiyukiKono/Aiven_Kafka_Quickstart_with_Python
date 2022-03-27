@@ -4,7 +4,7 @@
 
 ### Aivenとは何か？
 
-[Aiven](https://aiven.io/)は、Apache KafkaやCassandra、Elasticsearch、M3、PostgreSQLといった人気の高いオープンソースプロジェクトのフルマネージドサービスを提供しています。Aivenユーザーは、Aivenのサービスを様々なパブリッククラウド上で利用することができます。
+[Aiven](https://aiven.io/)は、Apache KafkaやCassandra、OpenSearch、M3、PostgreSQLといった人気の高いオープンソースプロジェクトのフルマネージドサービスを提供しています。Aivenユーザーは、Aivenのサービスを様々なパブリッククラウド上で利用することができます。
 
 
 ### Aivenトライアル
