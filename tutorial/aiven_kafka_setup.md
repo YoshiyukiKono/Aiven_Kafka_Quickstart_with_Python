@@ -51,7 +51,7 @@ Prices may vary by provider and region.
 The service summary on the right side of the console shows the pricing for the selected option.
 
 
-<img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/36694952-006b-ea3f-9135-1024cfc957dc.png" width = 50%>
+<img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/36694952-006b-ea3f-9135-1024cfc957dc.png" width = 30%>
 
 ### Service plan selection
 
