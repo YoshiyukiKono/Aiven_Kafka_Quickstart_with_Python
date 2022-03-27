@@ -35,3 +35,4 @@ Kafkaサービスの詳細画面(サービスビュー)を開きます。
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/bb70e7be-bd38-03cd-acea-5043329896de.png)
 
 
+[目次へ戻る](./contents_ja.md)
