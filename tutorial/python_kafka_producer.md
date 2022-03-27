@@ -36,7 +36,7 @@ In addition to the sensor data, the program addes the following metadata to the 
 
 ## Program
 
-The tutorial provides a Python program ([producer.py] (../producer/producer.py)).
+The tutorial provides a Python program ([producer.py](../producer/producer.py)).
 
 ### Connection information
 
