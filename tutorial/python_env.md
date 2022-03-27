@@ -1,22 +1,24 @@
 ## Python programming environment
 
-Describes the Python programming environment used in the tutorial.
+This section describes the Python programming environment used in the tutorial.
 
 The confirmed dependencies for this tutorial are:
 
  - Python: 3.10.0
  - kafka-python: 2.0.2
 
-If you are familiar with Python programming, you can also move on to the next step.
 
 The following description is based on what was confirmed in the Windows environment.
-It notes the differences due to known environments.
+It notes the known differences due to environments.
 
 
 ### Virtual environment
 
-Describes how to set up a virtual environment using conda in an environment where Anaconda is installed.
-Please refer to [Documentation] (https://docs.anaconda.com/anaconda/install/index.html) for the installation of Anaconda.
+Here it will be explained how to set up a virtual environment using `conda` command in the environment where Anaconda is installed.
+
+If you are familiar with Python programming, you may move on to the next step.
+
+Please refer to [Documentation](https://docs.anaconda.com/anaconda/install/index.html) for the installation of Anaconda.
 
 Create a virtual environment as shown below.
 
@@ -38,7 +40,7 @@ $ source activate aiven
 
 ### Package installation
 
-Install kafka-python on the virtual environment.
+Install [kafka-python](https://kafka-python.readthedocs.io/) package on the virtual environment.
 
 ```
 (aiven) ...> pip install kafka-python
