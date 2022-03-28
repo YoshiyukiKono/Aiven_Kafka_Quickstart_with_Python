@@ -4,7 +4,7 @@
 
 Aiven users can use the Aiven web console to manage Aiven services.
 
-You will see the Services list first when you log in to the console with the credentials (email address and password) that you created when you signed up. Initially, the list is empty, but if it has already been created, you will see a list of services as shown below (Only Kafka service is used for this tutorial).
+You will see the Services view first when you log in to the console with the credentials (email address and password) that you created when you signed up. Initially, the list is empty, but if it has already been created, you will see a list of services as shown below (Only Kafka service is used for this tutorial).
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/8b0e55a3-ac3d-50c7-961c-18feca9979ec.png" width = 50%>
 
@@ -48,7 +48,6 @@ Then select a region.
 Prices may vary by provider and region.
 The service summary on the right side of the console shows the pricing for the selected option.
 
-
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/36694952-006b-ea3f-9135-1024cfc957dc.png" width = 30%>
 
 ### Service plan selection
@@ -64,7 +63,7 @@ Here, select "Startup-2" on the Startup tab.
 ### Service name
 
 
-Enter the name of the service. A random character is provided by default. You can change the name to something easy to recognize. Here, it is replaced with "test".
+Enter the name of the service. A random name is provided by default. You can change the name to something easy to recognize. Here, it is replaced with "test".
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/e181391e-a304-8ef3-2ea4-3cfda30180bd.png" width = 50%>
 
@@ -78,7 +77,6 @@ The new service will be added to the service list as shown below.
 
 It will take some time before the service is available.
 The status indicator allows you to check the creation status.
-
 
 While building a service, you can select a specific service from the service list to display the view for that service. 
 Access the Overview tab, verify that the status is "RUNNING", and start using the service.
@@ -97,7 +95,7 @@ Here, the following "Service URI" is used in my case. You will use your own URI.
 
 You can also download the Access Key, Access Certificate, and CA Certificate.
 
-You will use these from the Python program in a later step.
+You will use these for the Python program in a later step.
 
 
 #### Basic settings: REST enablement
@@ -115,13 +113,13 @@ Enable the REST API to see the content of the messages fed to your Kafka cluster
 
 #### Advanced settings
 
-There is an Advanced configuration section at the end of the Overview screen.
+There is an Advanced settings section at the end of the Overview screen.
 Here, enable `auto_create_topics_enable` as shown below to simplify the preparation on the cluster side when executing the data feed program.
 
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/446d43c7-cad7-1bec-2eef-f45ae9ce90ed.png" width = 50%>
 
-When adding a new setting item, click the "+ Add configuration option" link, then setting candidates will be displayed as shown below.
+When adding a new configuration item, click the "+ Add configuration option" link, then candidates will be displayed as shown below.
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/d659102e-141d-f706-686b-7c82952a1668.png" width = 50%>
 
