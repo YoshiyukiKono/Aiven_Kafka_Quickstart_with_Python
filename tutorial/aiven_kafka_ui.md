@@ -1,13 +1,13 @@
-## Checking messages on Aiven Web Console
+## Checking messages on the Aiven Web Console
 
-Now let's see how you can see the status on the web console while the data feed to Aiven Kafka is running.
+Now let's see how you can see the messages on the web console while the data feed to Aiven Kafka is running.
 
 ### Topic list
 
-Kafka's data feeds are sent from the sender (Producer) to the receiver (Consumer) via a specific "topic".
+Kafka's data feeds are provided from the sender (Producer) to the receiver (Consumer) via a specific "topic".
 
-Open the Kafka service details screen (Service View).
-From the "Topics" tab, you can check the topic list and status information as shown below.
+Open the Kafka service view.
+From the "Topics" tab, you can check the topic list as shown below.
 
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/4774dc73-570d-bd9f-f0ba-9ea173563bb4.png" width = 70%>
@@ -23,7 +23,7 @@ You can select a specific topic for further information.
 
 #### Message content
 
-By pressing the "Messages" button at the top right of the topic details screen above, you can display the content of the messages sent to that topic.
+By pressing the "Messages" button at the top right of the topic view above, you can display the content of the messages sent to that topic.
 
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/de49479f-b42b-d07c-38ec-a89fa241c964.png" width = 70%>
