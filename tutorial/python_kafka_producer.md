@@ -3,25 +3,25 @@
 
 ## Overview
 
-The next step is to run a simulation program that feeds data to the Aiven Kafka cluster.
+The next step is to run the simulation program that feeds data to the Aiven Kafka cluster.
 
-The program has the role of Kafka Producer. In this tutorial, we will not create a Kafka Consumer because we will use the features of the Aiven Web Console to check the data sent to the Kafka topic.
+The program works as a Kafka Producer. In this tutorial, we will not create a Kafka Consumer because we will the Aiven Web Console to check the data sent to the Kafka cluster.
 
 ## Data
 
-Open data provided by [HASC (Human Activity Sensing Consortium)](http://hasc.jp/) will be used.
+Open-data provided by [HASC (Human Activity Sensing Consortium)](http://hasc.jp/) will be used.
 
-HASC is a consortium that aims to build a large-scale database with wearable sensors for understanding human behavior.
+HASC is the consortium that aims to build a large-scale database with wearable sensors for understanding human behavior.
 
 The program uses one of the acceleration data ([HASC1001.csv](../producer/HASC1001.csv)) that can be downloaded from [2010corpus](http://hasc.jp/hc2010/HASC2010corpus/hasc2010corpus-en.html).
 
 ## specification
 
-The simulator sends a JSON-formatted message to the Kafka topic.
+The simulator sends JSON-formatted messages to the Kafka topic.
 
 ### Sensor data
 
-The data in csv format has the following data model (header is not included).
+The data in csv format has the following data model (A header is not included).
 
 ```
 [time (sec)], [X-axis (G)], [Y-axis (G)], [Z-axis (G)]
@@ -55,7 +55,7 @@ Rename the argument to the constructor of the` ProducerSimilator` class, `bootst
                                     )
 ```
 
-Also, use the following files obtained in the previous step. Place it in the same location as producer.py.
+Also, use the following files obtained in the previous step. Place them in the same location as producer.py.
 
 - ca.pem
 - service.cert
@@ -68,10 +68,10 @@ Also, use the following files obtained in the previous step. Place it in the sam
 Run the Python program as follows.
 
 ```
-> python producer.py
+(aiven) ... > python producer.py
 ```
 
-When executed, the message to be sent will be displayed on the console as shown below.
+When executed, the message to be sent will be displayed on your console as shown below.
 
 ```
 Simulation running
