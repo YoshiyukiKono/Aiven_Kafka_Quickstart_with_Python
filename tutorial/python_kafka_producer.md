@@ -3,7 +3,7 @@
 
 ## Overview
 
-Next step is to run a simulation program that feeds data to the Aiven Kafka cluster.
+The next step is to run a simulation program that feeds data to the Aiven Kafka cluster.
 
 The program has the role of Kafka Producer. In this tutorial, we will not create a Kafka Consumer because we will use the features of the Aiven Web Console to check the data sent to the Kafka topic.
 
@@ -13,7 +13,7 @@ Open data provided by [HASC (Human Activity Sensing Consortium)](http://hasc.jp/
 
 HASC is a consortium that aims to build a large-scale database with wearable sensors for understanding human behavior.
 
-The program uses one of the acceleration data ([HASC1001.csv](../producer/HASC1001.csv)) that can be downloaded from [2010corpus](http://hasc.jp/hc2010/HASC2010corpus/hasc2010corpus.html).
+The program uses one of the acceleration data ([HASC1001.csv](../producer/HASC1001.csv)) that can be downloaded from [2010corpus](http://hasc.jp/hc2010/HASC2010corpus/hasc2010corpus-en.html).
 
 ## specification
 
@@ -24,15 +24,15 @@ The simulator sends a JSON-formatted message to the Kafka topic.
 The data in csv format has the following data model (header is not included).
 
 ```
-[Inspection time (sec)], [X-axis (G)], [Y-axis (G)], [Z-axis (G)]
+[time (sec)], [X-axis (G)], [Y-axis (G)], [Z-axis (G)]
 ```
 
 ### Metadata
 
-In addition to the sensor data, the program addes the following metadata to the message:
+In addition to the sensor data, the program adds the following metadata to the message:
 
- - Message ID (UUID)
- - Sending time
+ - Message-ID (UUID)
+ - Transmission date and time
 
 ## Program
 
@@ -40,7 +40,7 @@ The tutorial provides a Python program ([producer.py](../producer/producer.py)).
 
 ### Connection information
 
-When you use the program, you need to edit the connection information to the Aiven Kafka cluster.
+When using the program, you need to edit the connection information to the Aiven Kafka cluster.
 
 Rename the argument to the constructor of the` ProducerSimilator` class, `bootstrap_servers`,  to your Aiven Kafka cluster's URI.
 
@@ -85,4 +85,4 @@ json message: {'_id': '1c056ea8-44d1-4f18-b89e-671eabc242df','_date': '2022-03-2
 Press Ctrl + C to stop the program.
 
 
-[Back to Tabele of Contents](./contents_en.md)
+[Back to Table of Contents](./contents_en.md)
