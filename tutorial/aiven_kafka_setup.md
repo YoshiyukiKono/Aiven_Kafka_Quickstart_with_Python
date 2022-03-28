@@ -2,11 +2,11 @@
 
 ### Aiven Web Console login
 
-Aiven users can use Aiven web console to manage Aiven services.
+Aiven users can use the Aiven web console to manage Aiven services.
 
-When you log in to the console with the credentials (email address and password) that you created when you signed up, you will see the Services list first.
-Initially the list is empty, but if it has already been created, you will see a list of services as shown below (Only Kafka service is used for this tutorial).
 
+Aiven users can use the Aiven web console to manage Aiven services.
+You will see the Services list first when you log in to the console with the credentials (email address and password) that you created when you signed up. Initially, the list is empty, but if it has already been created, you will see a list of services as shown below (Only Kafka service is used for this tutorial).
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/8b0e55a3-ac3d-50c7-961c-18feca9979ec.png" width = 50%>
 
@@ -23,7 +23,7 @@ First, select the Kafka service.
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/e64d98f5-8762-7469-06da-013b2b1e2992.png" width = 50%>
 
-You can also select the version to use from the pull-down (use default for this tutorial).
+You can also select the version from the pull-down (use default, Apache Kafka 3.1.0, for this tutorial).
 
 
 
@@ -57,9 +57,7 @@ The service summary on the right side of the console shows the pricing for the s
 
 Next, select a service plan.
 
-There are categories like startups, businesses, and premiums,
-It presents a wide range of combinations of the number of servers and the memory, CPUs, nodes, disk resources, etc..
-
+There are categories like startups, businesses, and premiums, which present a wide range of combinations of the number of servers and the memory, CPUs, nodes, disk resources, etc.
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/a827fa1d-fb70-4f61-e81c-18636035ae61.png" width = 50%>
 
@@ -67,10 +65,8 @@ Here, select "Startup-2" on the Startup tab.
 
 ### Service name
 
-Enter the name of the service. A random name is provided by default.
-You can change the name to something that is easy to recognize. Here, it is replaced with "test".
 
-
+Enter the name of the service. A random character is provided by default. You can change the name to something easy to recognize. Here, it is replaced with "test".
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/e181391e-a304-8ef3-2ea4-3cfda30180bd.png" width = 50%>
 
@@ -85,19 +81,19 @@ The new service will be added to the service list as shown below.
 It will take some time before the service is available.
 The status indicator allows you to check the creation status.
 
-While building a service, you can select a specific service screen from the service list to display the screen for that service.
+
+While building a service, you can select a specific service from the service list to display the view for that service. 
 Access the Overview tab, verify that the status is "RUNNING", and start using the service.
 
 ### Kafka Cluster Configuration
 
 #### Connection information
 
-On the Overview tab, you can check the connection information to the Aiven Kafka cluster. It is used later whan you use the Python program provided by this tutorial.
-
+On the Overview tab, you can check the connection information to the Aiven Kafka cluster. It is used later when you use the Python program provided by this tutorial.
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/4279227d-8149-535d-73c9-b934598c34b9.png" width = 50%>
 
-Here, the following "Service URI" is displayed. You will use your own URI.
+Here, the following "Service URI" is used in my case. You will use your own URI.
 
 > kafka-test-yoshiyuki-e281.aivencloud.com: 10779
 
@@ -121,7 +117,7 @@ Enable the REST API to see the content of the messages fed to your Kafka cluster
 
 #### Advanced settings
 
-At the end of the Overview screen, there is an Advanced configuration section.
+There is an Advanced configuration section at the end of the Overview screen.
 Here, enable `auto_create_topics_enable` as shown below to simplify the preparation on the cluster side when executing the data feed program.
 
 
@@ -134,4 +130,4 @@ When adding a new setting item, click the "+ Add configuration option" link, the
 You've completed the Kafka cluster setup.
 
 
-[Back to Tabele of Contents](./contents_en.md)
+[Back to Table of Contents](./contents_en.md)
