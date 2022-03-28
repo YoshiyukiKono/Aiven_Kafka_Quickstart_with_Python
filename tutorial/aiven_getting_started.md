@@ -8,9 +8,10 @@ The purpose of this tutorial is to leverage Aiven's managed services to provide 
 
 ### Aiven Trial
 
-A 30-day free trial is available. 300 $ worth of credit will be given automatically. You will not be asked for your credit card information when you sign up.
+A 30-day free trial is available (See below link). 
 
 https://console.aiven.io/signup
 
+300$ worth of credit will be given automatically. You will not be asked for your credit card information when you sign up.
 
 [Back to Tabele of Contents](./contents_en.md)
