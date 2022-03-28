@@ -15,7 +15,7 @@ From the "Topics" tab, you can check the topic list and status information as sh
 
 #### Topic information
 
-You can select a specific topic for farther information.
+You can select a specific topic for further information.
 
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/ce11ab83-06d6-3887-b189-2b384f706cbc.png" width = 70%>
@@ -38,10 +38,10 @@ Messages are displayed as shown below (only the first line is cut out here).
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/41f4b4c2-74bf-83f2-42ee-301844249959.png" width = 70%>
 
 
-You can check the content of the message by turning on the "Docode from base64" toggle button.
+You can check the content of the message by turning on the "Decode from base64" toggle button.
 
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/bb70e7be-bd38-03cd-acea-5043329896de.png" width = 50%>
 
 
-[Back to Tabele of Contents](./contents_en.md)
+[Back to Table of Contents](./contents_en.md)
