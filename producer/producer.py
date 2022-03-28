@@ -1,5 +1,5 @@
 """Smilulator of Kafka Producer
-    
+
     Example:
         ::
 
@@ -18,7 +18,7 @@ import csv
 
 class ProducerSimulator(KafkaProducer):
     """kafka-python package `KafkaProducer` inheritance class
-    
+
     Attributes:
         input_file (str): the path of a csv file having the three columns, i.e. time(sec), X(G), Y(G), Z(G)
         topic (str): Kafka topic name
@@ -26,7 +26,7 @@ class ProducerSimulator(KafkaProducer):
 
     def __init__(self, input_file, topic, **kwargs):
         """Constructor of `ProducerSimulator` class
-        
+
         Args:
             input_file (str): the path of a csv file having the three columns, i.e. time(sec), X(G), Y(G), Z(G)
             topic (str): Kafka topic name
