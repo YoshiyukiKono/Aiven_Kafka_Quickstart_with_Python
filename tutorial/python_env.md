@@ -9,7 +9,7 @@ The confirmed dependencies for this tutorial are:
 
 
 The following description is based on what was confirmed in the Windows environment.
-It notes the known differences due to environments.
+It notes the known differences due to OS.
 
 
 ### Virtual environment
@@ -32,7 +32,7 @@ Start the created virtual environment.
 > activate aiven
 ```
 
-For MacOS, it will be as follows.
+For macOS, it will be as follows.
 
 ```
 $ source activate aiven
@@ -47,4 +47,4 @@ Install [kafka-python](https://kafka-python.readthedocs.io/) package on the virt
 ```
 
 
-[Back to Tabele of Contents](./contents_en.md)
+[Back to Table of Contents](./contents_en.md)
