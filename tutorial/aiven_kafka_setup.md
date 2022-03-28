@@ -55,7 +55,7 @@ The service summary on the right side of the console shows the pricing for the s
 
 Next, select a service plan.
 
-There are categories like startups, businesses, and premiums, which present a wide range of combinations of the number of servers and the memory, CPUs, nodes, disk resources, etc.
+There are categories like Startup, Business, and Premium, which present a wide range of combinations of the number of servers, memory, CPUs, nodes, disk resources, etc.
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/a827fa1d-fb70-4f61-e81c-18636035ae61.png" width = 50%>
 
