@@ -4,4 +4,4 @@
 1. [Aiven Kafka setup](aiven_kafka_setup.md)
 1. [Python programming environment](python_env.md)
 1. [Python Kafka producer](python_kafka_producer.md)
-1. [Checking messages on Aiven Web Console](aiven_kafka_ui.md)
+1. [Checking messages on the Aiven web console](aiven_kafka_ui.md)
