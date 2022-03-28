@@ -4,8 +4,6 @@
 
 Aiven users can use the Aiven web console to manage Aiven services.
 
-
-Aiven users can use the Aiven web console to manage Aiven services.
 You will see the Services list first when you log in to the console with the credentials (email address and password) that you created when you signed up. Initially, the list is empty, but if it has already been created, you will see a list of services as shown below (Only Kafka service is used for this tutorial).
 
 <img src = "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/176567/8b0e55a3-ac3d-50c7-961c-18feca9979ec.png" width = 50%>
