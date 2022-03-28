@@ -1,3 +1,14 @@
+"""Smilulator of Kafka Producer
+    
+    Example:
+        ::
+
+            $python producer.py
+
+    Attributes:
+        None
+"""
+
 from kafka import KafkaProducer
 import json
 import time
@@ -6,13 +17,29 @@ import datetime
 import csv
 
 class ProducerSimulator(KafkaProducer):
+    """kafka-python package `KafkaProducer` inheritance class
+    
+    Attributes:
+        input_file (str): the path of a csv file having the three columns, i.e. time(sec), X(G), Y(G), Z(G)
+        topic (str): Kafka topic name
+    """
 
     def __init__(self, input_file, topic, **kwargs):
+        """Constructor of `ProducerSimulator` class
+        
+        Args:
+            input_file (str): the path of a csv file having the three columns, i.e. time(sec), X(G), Y(G), Z(G)
+            topic (str): Kafka topic name
+            kwargs: Paremeters for the parent class, `KafkaProducer`
+        """
+
         super().__init__(**kwargs)
         self.input_file = input_file
         self.topic = topic
 
     def simulate(self):
+        """Run the simulation of a Kafka producer"""
+
         input_file = open(self.input_file, 'r')
         f = csv.reader(input_file, delimiter=",", doublequote=True, lineterminator="\r\n", quotechar='"', skipinitialspace=True)
         try:
@@ -37,6 +64,7 @@ class ProducerSimulator(KafkaProducer):
 
 
 def main():
+    """Entry point of this module"""
 
     cert_folder = "."
     producer_simulator = ProducerSimulator("./HASC1001.csv", 
