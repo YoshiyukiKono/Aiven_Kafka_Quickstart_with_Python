@@ -14,7 +14,7 @@ It notes the known differences due to OS.
 
 ### Virtual environment
 
-Here it will be explained how to set up a virtual environment using `conda` command in the environment where Anaconda is installed.
+Here, it will be explained how to set up a virtual environment using `conda` command in the environment where Anaconda is installed.
 
 If you are familiar with Python programming, you may move on to the next step.
 
@@ -23,7 +23,7 @@ Please refer to [Documentation](https://docs.anaconda.com/anaconda/install/index
 Create a virtual environment as shown below.
 
 ```
-> conda create -n aiven python = 3
+> conda create -n aiven python=3
 ```
 
 Start the created virtual environment.
