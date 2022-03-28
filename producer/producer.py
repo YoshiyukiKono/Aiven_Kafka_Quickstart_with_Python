@@ -68,7 +68,7 @@ def main():
 
     cert_folder = "."
     producer_simulator = ProducerSimulator("./HASC1001.csv", 
-                                     "sensor", bootstrap_servers=['kafka-test-yoshiyuki-e281.aivencloud.com:10779'],
+                                     "sensor", bootstrap_servers=['YOUR_SERVICE_NAME.aivencloud.com:10779'],
                                      value_serializer=lambda x: json.dumps(x).encode('utf-8'),
                                      security_protocol="SSL",
                                      ssl_cafile=cert_folder+'/ca.pem',
