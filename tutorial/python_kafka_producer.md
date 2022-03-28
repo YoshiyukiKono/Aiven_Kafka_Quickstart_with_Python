@@ -82,7 +82,7 @@ json message: {'_id': '1c056ea8-44d1-4f18-b89e-671eabc242df','_date': '2022-03-2
 ```
 
 
-Press Ctrl + C to stop the program.
+Press Ctrl+C to stop the program.
 
 
 [Back to Table of Contents](./contents_en.md)
